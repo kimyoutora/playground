@@ -35,3 +35,10 @@ StringLiteralConvertible        // "abc"
 ArrayLiteralConvertible         // [ a, b, c ]
 DictionaryLiteralConvertible    // [ a: x, b: y ]
 ```
+
+## Any protocol
+Empty protocol type, has no functions in it but it can hold anything
+
+```swift
+any[]
+```
