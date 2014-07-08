@@ -41,3 +41,19 @@ repeat(2) {
     println("Hello!")
 }
 ```
+
+## Memory management
+You can specify the ownership within the closure e.g. [unowned self]
+
+```swift
+class TempNotifier {
+    var onChange: (Int) -> Void = {}
+    var currentTemp = 72
+
+    init() {
+        onChange = {[unowned self] temp in
+            self.currentTemp = temp
+        }
+    }
+}
+```
