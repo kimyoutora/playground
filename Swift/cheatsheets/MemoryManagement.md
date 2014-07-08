@@ -50,10 +50,10 @@ card.holder.charge(2.19)
 
 ## Summary
 - Use strong references from owners to objects they own
-![Strong References Diagram](strongReferences.png)
+    ![Strong References Diagram](strongReferences.png)
 
 - Use weak references among objects with independent lifetimes
-![Weak References Diagram](weakReferences.png)
+    ![Weak References Diagram](weakReferences.png)
 
 - Use unowned references from owned objects with the same lifetime
-![Onowned References Diagram](unownedReferences.png)
+    ![Onowned References Diagram](unownedReferences.png)
